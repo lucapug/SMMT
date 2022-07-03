@@ -23,7 +23,10 @@ import string
 import re
 # This will load the fields list
 import fields
-from emot.emo_unicode import UNICODE_EMO, EMOTICONS
+#from emot.emo_unicode import UNICODE_EMO, EMOTICONS
+# above substituted by following two lines..
+from emot.emo_unicode import UNICODE_EMOJI # For emojis
+from emot.emo_unicode import EMOTICONS_EMO # For EMOTICONS
 import emoji
 
 fieldsFilter = fields.fields
