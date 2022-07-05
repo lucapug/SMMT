@@ -38,8 +38,9 @@ import emoji
 
 fieldsFilter = fields.fields
 
-fileN = sys.argv[1]
+#fileN = sys.argv[1]
 #preprocess = sys.argv[2] #gives Error if second argument 'p' is omitted in the call
+fileN = sys.argv[0]
 preprocess = sys.argv[1]
 #if len(sys.argv) > 1:
 #    preprocess = sys.argv[2]
