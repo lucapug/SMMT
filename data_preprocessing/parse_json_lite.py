@@ -25,11 +25,11 @@ import re
 import fields
 #from emot.emo_unicode import UNICODE_EMO, EMOTICONS
 # above substituted by following ..
-from emot.emo_unicode import 'EMOJI_UNICODE'
-from emot.emo_unicode import 'UNICODE_EMOJI'
-from emot.emo_unicode import 'EMOJI_ALIAS_UNICODE'
-from emot.emo_unicode import 'UNICODE_EMOJI_ALIAS'
-from emot.emo_unicode import 'EMOTICONS_EMO'
+from emot.emo_unicode import EMOJI_UNICODE
+from emot.emo_unicode import UNICODE_EMOJI
+from emot.emo_unicode import EMOJI_ALIAS_UNICODE
+from emot.emo_unicode import UNICODE_EMOJI_ALIAS
+from emot.emo_unicode import EMOTICONS_EMO
 
 #from emot.emo_unicode import UNICODE_EMOJI # For emojis
 #from emot.emo_unicode import EMOTICONS_EMO # For EMOTICONS
