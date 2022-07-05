@@ -75,7 +75,8 @@ def give_emoji_free_text(text):
     return emoji.get_emoji_regexp().sub(r'', text)
 
 
-tweet_df = pd.io.json.json_normalize(data)
+#tweet_df = pd.io.json.json_normalize(data)
+tweet_df = pd.io.json_normalize(data)
 # Cleaner solution in case some of the fields in the list are non existent and/or have typos
 tweet_df = tweet_df.loc[:, tweet_df.columns.isin(fieldsFilter)]
 
