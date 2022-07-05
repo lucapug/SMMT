@@ -40,6 +40,7 @@ fieldsFilter = fields.fields
 
 fileN = sys.argv[1]
 print('fileN', fileN)
+print('argv[0]', sys.argv[0])
 #preprocess = sys.argv[2] #gives Error if second argument 'p' is omitted in the call
 #fileN = sys.argv[0]
 #preprocess = sys.argv[1]
