@@ -45,7 +45,7 @@ fileN = sys.argv[0]
 
 #preprocess = sys.argv[1]
 if len(sys.argv) > 1:
-    preprocess = sys.argv[2]
+    preprocess = sys.argv[1]
 else:
    preprocess = ''
    
