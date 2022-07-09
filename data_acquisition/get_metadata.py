@@ -171,7 +171,7 @@ def main():
                 }
                 json.dump(t, outfile)
                 outfile.write('\n')
-'''        
+    '''   
     f = csv.writer(open('{}.csv'.format(output_file_noformat), 'w'))
     print('creating CSV version of minimized json master file') 
     fields = ["favorite_count", "source", "text", "in_reply_to_screen_name", "is_retweet", "created_at", "retweet_count", "id_str"]                
@@ -180,7 +180,7 @@ def main():
         for tweet in master_file:
             data = json.loads(tweet)            
             f.writerow([data["favorite_count"], data["source"], data["text"].encode('utf-8'), data["in_reply_to_screen_name"], data["is_retweet"], data["created_at"], data["retweet_count"], data["id_str"].encode('utf-8')])
-'''            
+    '''       
     f = csv.writer(open('{}.csv'.format(output_file_noformat), 'w'))
     print('creating CSV version of json master file, 4 selected fields') 
     fields = ['Date', 'User','Tweet_id', 'Tweet']                
