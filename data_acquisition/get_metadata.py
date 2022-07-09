@@ -188,7 +188,7 @@ def main():
     with open(output_file) as master_file:
         for tweet in master_file:
             data = json.loads(tweet)            
-            f.writerow([data["created_at"], data["user[screen_name]"], data["id"], data["text"].encode('utf-8')])   
+            f.writerow([data["created_at"], data["user"], data["id"], data["text"].encode('utf-8')])   
 
 # main invoked here    
 main()
